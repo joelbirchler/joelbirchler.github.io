@@ -14,7 +14,7 @@ $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$brand-color:      #02b45c !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -60,6 +60,20 @@ h1 { font-size: 4em; }
 h2 { font-size: 3em; }
 h3 { font-size: 2em; }
 
+a.post-link:visited { color: $brand-color !important; }
+p a { text-decoration: underline; }
+
 .site-header, .site-footer { border: none; }
-.site-header .wrapper { border-bottom: 1px solid $grey-color-light; padding-bottom: 1em; }
-.site-footer .wrapper { border-top: 1px solid $grey-color-light; padding-top: 2em; }
+
+.site-header .wrapper {
+  border-bottom: 1px solid $grey-color-light;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-align: center;
+}
+.site-title { float: none; }
+
+.site-footer .wrapper {
+  color: $grey-color;
+  font-size: $small-font-size;
+}
