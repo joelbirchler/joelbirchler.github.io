@@ -59,3 +59,7 @@ h1, h2, h3 {
 h1 { font-size: 4em; }
 h2 { font-size: 3em; }
 h3 { font-size: 2em; }
+
+.site-header, .site-footer { border: none; }
+.site-header .wrapper { border-bottom: 1px solid $grey-color-light; padding-bottom: 1em; }
+.site-footer .wrapper { border-top: 1px solid $grey-color-light; padding-top: 2em; }
